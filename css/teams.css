@@ -11,7 +11,7 @@ body {
   background-image: url("https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-1300x500.jpeg");
   padding: 12% 0;
   font-weight: bolder;
-  height: 100vh;
+  height: 90vh;
 }
 
 .first-page h1 {
@@ -143,6 +143,9 @@ font-size: 3em;
     padding-bottom: 1%;
     padding-top: 4%;
   }
+  .first-page{
+    padding-top: 30%;
+  }
 }
 @media screen and (max-width: 1200px) and (min-width: 775px) {
   .r-card{
@@ -160,6 +163,9 @@ font-size: 3em;
   }
   .Pre_Heads h1{
     margin-left:10%;
+  }
+  .first-page{
+    padding-top: 20%;
   }
 }
 .card:hover {
