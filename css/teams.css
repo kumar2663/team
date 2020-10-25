@@ -136,7 +136,7 @@ font-size: 3em;
     width:185px;
   }
   .progress{
-    width:80%;
+    width:100%;
   }
   .Pre_Heads h1{
     margin-left:5%;
@@ -166,6 +166,9 @@ font-size: 3em;
   }
   .first-page{
     padding-top: 20%;
+  }
+  .progress{
+    width:80%
   }
 }
 .card:hover {
