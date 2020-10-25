@@ -18,7 +18,7 @@ body {
   color: white;
   font-size: 1.2rem;
   padding: 7% 7%;
-  height: 95vh;
+  height: 90vh;
 }
 .initial h1
 {
@@ -90,7 +90,7 @@ p{
 }
 @media only screen and (max-width: 775px) {
   .card {
-    left: 10%;
+    left: 5%;
     width: 75%;
   }
   .image{
@@ -105,7 +105,7 @@ p{
     width:100%;
   }
   .initial{
-    padding-top: 30%;
+    padding-top: 35%;
   }
 }
 .card:hover {
