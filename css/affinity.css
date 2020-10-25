@@ -87,7 +87,7 @@ p{
   color: white;
   backface-visibility: hidden;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 775px) {
   .card {
     left: 10%;
     width: 75%;
@@ -120,7 +120,7 @@ p{
   margin-left:0;
   margin-right: 0;
 }
-@media only screen and (min-width: 775px) {
+@media only screen and (min-width: 1000px) {
   .r-card {
     left: 50%;
   }
@@ -133,6 +133,26 @@ p{
 .past .l-card{
     left: 38%;
 }
+}
+@media screen and (max-width: 1000px) and (min-width: 775px) {
+  .l-card {
+    left: 3%;
+    width: 75%;
+  }
+  .r-card{
+    left:40%;
+  }
+  .past .l-card{
+    left:30%;
+  }
+  .image{
+    display: none;
+  }
+  .text{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 3%;
+  }
 }
 .company {
   width: 90%;

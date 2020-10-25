@@ -95,7 +95,7 @@ font-size: 3em;
   transition: transform 2s;
 }
 
-@media only screen and (min-width: 775px) {
+@media only screen and (min-width: 1200px) {
   .r-card {
     left: 50%;
   }
@@ -112,12 +112,53 @@ font-size: 3em;
   .dt .r-card{
     left: 45%;
   }
+  .Pre_Heads h1{
+    margin-left:30%;
+  }
+  .progress{
+    width:60%;
+  }
 }
 
 @media only screen and (max-width: 775px) {
   .card {
     left: 20%;
     width: 75%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  ul{
+    width:185px;
+    margin-right: 2%;
+  }
+  .col{
+    width:185px;
+  }
+  .progress{
+    width:80%;
+  }
+  .Pre_Heads h1{
+    margin-left:5%;
+    padding-bottom: 1%;
+    padding-top: 4%;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 775px) {
+  .r-card{
+    left:50%;
+  }
+  .l-card{
+    left:10%;
+  }
+  .dt .m-card{
+    left:15%;
+  }
+  .dt .r-card{
+    margin-top:4%;
+    left:38%;
+  }
+  .Pre_Heads h1{
+    margin-left:10%;
   }
 }
 .card:hover {
@@ -168,6 +209,7 @@ h2
   margin-left: auto;
   margin-right: auto;
 }
+
 .Pre_Heads h4{
   text-align: center;
   font-weight: bold;
