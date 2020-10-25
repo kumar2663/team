@@ -18,6 +18,7 @@ body {
   color: white;
   font-size: 1.2rem;
   padding: 7% 7%;
+  height: 100vh;
 }
 .initial h1
 {
@@ -100,6 +101,12 @@ p{
     margin-left: 5%;
     margin-right: 3%;
   }
+  .progress{
+    width:100%;
+  }
+  .initial{
+    padding-top: 30%;
+  }
 }
 .card:hover {
   background-color: black;
@@ -133,6 +140,12 @@ p{
 .past .l-card{
     left: 38%;
 }
+.progress{
+  width:60%;
+}
+.initial{
+  padding-top: 15%;
+}
 }
 @media screen and (max-width: 1000px) and (min-width: 775px) {
   .l-card {
@@ -152,6 +165,12 @@ p{
     width: 90%;
     margin-left: 5%;
     margin-right: 3%;
+  }
+  .progress{
+    width:100%;
+  }
+  .initial{
+    padding-top: 20%;
   }
 }
 .company {
